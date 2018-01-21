@@ -32,7 +32,7 @@ defmodule Clicky.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.0"},
+      {:httpoison, "> 0.11.0"},
       {:jason, "~> 1.0.0-rc.2"}
     ]
   end
